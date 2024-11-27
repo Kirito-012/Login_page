@@ -5,8 +5,6 @@ import img1 from '../images/featured1.jpg'
 import img2 from '../images/featured2.jpg'
 import img3 from '../images/featured3.jpg'
 import img4 from '../images/featured4.jpg'
-import Slider from 'react-slick'
-
 
 const Second_Section = () => {
 	const settings = {
