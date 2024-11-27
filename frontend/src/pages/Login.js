@@ -23,7 +23,7 @@ const Login = () => {
 		if (!email || !password) return handleError('All input fields are required')
 
 		try {
-			const url = 'http://localhost:4000/auth/login'
+			const url = 'https://login-page-api-peach.vercel.app/auth/login'
 			const response = await fetch(url, {
 				method: 'POST',
 				headers: {
