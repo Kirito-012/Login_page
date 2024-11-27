@@ -24,7 +24,7 @@ const Signup = () => {
 			return handleError('All values are required')
 
 		try {
-			const url = 'http://localhost:4000/auth/signup'
+			const url = 'https://login-page-api-peach.vercel.app/auth/signup'
 			const response = await fetch(url, {
 				method: 'POST',
 				headers: {
