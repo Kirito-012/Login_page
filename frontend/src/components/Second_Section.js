@@ -6,8 +6,7 @@ import img2 from '../images/featured2.jpg'
 import img3 from '../images/featured3.jpg'
 import img4 from '../images/featured4.jpg'
 import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+
 
 const Second_Section = () => {
 	const settings = {
@@ -43,39 +42,39 @@ const Second_Section = () => {
 					</div>
 				</div>
 
-				<div>
-					<div className='slider-container'>
-						<Slider {...settings}>
-							<div>
-								<h3>1</h3>
-							</div>
-							<div>
-								<h3>2</h3>
-							</div>
-							<div>
-								<h3>3</h3>
-							</div>
-							<div>
-								<h3>4</h3>
-							</div>
-							<div>
-								<h3>5</h3>
-							</div>
-							<div>
-								<h3>6</h3>
-							</div>
-							<div>
-								<h3>7</h3>
-							</div>
-							<div>
-								<h3>8</h3>
-							</div>
-							<div>
-								<h3>9</h3>
-							</div>
-						</Slider>
-					</div>
-				</div>
+				// <div>
+				// 	<div className='slider-container'>
+				// 		<Slider {...settings}>
+				// 			<div>
+				// 				<h3>1</h3>
+				// 			</div>
+				// 			<div>
+				// 				<h3>2</h3>
+				// 			</div>
+				// 			<div>
+				// 				<h3>3</h3>
+				// 			</div>
+				// 			<div>
+				// 				<h3>4</h3>
+				// 			</div>
+				// 			<div>
+				// 				<h3>5</h3>
+				// 			</div>
+				// 			<div>
+				// 				<h3>6</h3>
+				// 			</div>
+				// 			<div>
+				// 				<h3>7</h3>
+				// 			</div>
+				// 			<div>
+				// 				<h3>8</h3>
+				// 			</div>
+				// 			<div>
+				// 				<h3>9</h3>
+				// 			</div>
+				// 		</Slider>
+				// 	</div>
+				// </div>
 
 				{/* <div className='ml-24'>
 					<Slider {...settings}>
